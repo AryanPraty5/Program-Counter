@@ -19,7 +19,7 @@ module PC_model
                 addr <= addr + 4'b0001;
         end
     
-    assign bus = (pc_out) ? addr : 8'bz;
+    assign bus = (pc_out) ? {4'b0000,addr} : 8'bz;
 
 endmodule
         
