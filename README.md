@@ -4,8 +4,8 @@ Made a Program Counter which increments the address, passes it to the bus and th
 ## Modules
 |**Module Name**|**Function**|
 | :--- | : --- |
-|**Program-Counter**|`pc_model` is the main element of this project, it increments the 4-bit address by 1 bit each time the count_enable function is on. It gives instruction to the RAM as to which memory element is currently needed.|
-|**RAM-Model**|`ram_model` is a 16x8-bit synchronous memory storage RAM which enables us to store 16 elements of 1 byte (8bits) each.|
+|Program-Counter|`pc_model` is the main element of this project, it increments the 4-bit address by 1 bit each time the count_enable function is on. It gives instruction to the RAM as to which memory element is currently needed.|
+|RAM-Model|`ram_model` is a 16x8-bit synchronous memory storage RAM which enables us to store 16 elements of 1 byte (8bits) each.|
 
 ## Operations Allowed
 |**Operations**|**Symbol**|**Function**|
